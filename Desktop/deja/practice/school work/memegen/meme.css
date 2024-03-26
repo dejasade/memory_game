@@ -1,0 +1,82 @@
+html {
+    color: black;
+    font-family:'Lucida Sans', 'Arial','Times New Roman';
+    font-size: 16px;
+    font-weight: 400;
+    background-color: pink;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2{
+    
+}
+
+.new-meme {
+    list-style: none;
+    width: 100%;
+}
+
+.meme-img{
+    display: inline-block;
+    margin: 1%;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    position: relative;
+    opacity: 1;
+}
+
+img {
+   width: 400px; 
+}
+
+.meme-img:hover {opacity: .8;}
+
+/* .be-gone {
+    width: 20x;
+    height: 20px;
+    content: 'X';
+    position: absolute;
+    top: auto;
+    left: 85%;
+    font-weight: 600;
+    text-align: center;
+    font-size: 100%;
+    opacity: 1;
+}
+
+.be-gone:hover {
+    opacity: 0;
+    z-index: 15;
+}  */
+
+/* .text {
+    font-family: 'Times New Roman', Times, serif;   
+    width: 500px;
+    font-size: 250%;
+    line-height: 1em;
+    letter-spacing: 1.5px;
+    color: black;
+} 
+
+ .text:hover {opacity: 1;} */
+
+.top {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    max-height: 50%;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    z-index: 9;
+    max-height: 50%;
+}
+
